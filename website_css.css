@@ -2,13 +2,6 @@ body
 {
 	margin:0;
 }
-.Nav
-{
-	background-color:RGB(191,191,81);
-	height:45px;
-	position:fixed;
-	top:0px;right:0px;left:0px;
-}
 h1
 {
 	color:RGB(114,45,14);
