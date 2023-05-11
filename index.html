@@ -3,31 +3,35 @@
 		<meta charset="utf-8">
 		<title>QZHA | 七中木毛协会</title>
 		<link rel="stylesheet" type="text/css" href="website_css.css">
+		<script type="text/javascript">
+			function Open()
+			{
+				document.getElementById('open').remove();
+				document.getElementById('followingContent').innerHTML="<hr><h2 style=\"text-align:center;\">会徽</h2><div style=\"margin-left:263px;\"><img src=\"https://itnmian.github.io/huihui1.png\">会徽1<img src=\"https://itnmian.github.io/huihui2.png\">会徽2</div><hr><h2 style=\"text-align:center;\">会旗</h2><div style=\"margin-left:423px\"><img src=\"https://itnmian.github.io/huiqi1.png\"></div><hr><h2 style=\"text-align:center;\">会歌</h2><p style=\"text-align:center;\"><a style=\"text-align:center;color:black;font-size:19px;\" href=\"https://music.163.com/#/song?id=1345485069\">冬之花</a></p>";
+			}
+		</script>
 	</head>
 	<body>
-		<div class="container">
-			<div class="header" style="background-color:RGB(191,191,81);height:45px;float:top;font-size:32px;border-bottom:solid;border-top:solid;border-width:1px;border-color:RGB(19,19,81);">
+		<div id="container">
+			<div id="header" style="background-color:RGB(191,191,81);height:45px;float:top;font-size:32px;border-bottom:solid;border-width:1px;border-color:RGB(19,19,81);">
 				<img src="https://itnmian.github.io/Logo.png">
 			</div>
-			<div class="page">
+			<div id="page">
 				<div style="height:19px;"></div>
-				<div style="width:1080px;margin-left:auto;margin-right:auto;">
-					<img src="https://itnmian.github.io/huihui.png" style="margin-left:439px;" alt="会徽">
-					<hr>
-					<h1 style="text-align-last:justify;border-style:outset;font-family:仿宋;">七中木毛协会<br>Q i z h o n g    H o m o    A s s o c i a t i o n<br>第七中学校ホモ協会</h1>
-					<h1 style="text-align:center;font-size:114px;"><i>“Homo 无处不在”</i></h1>
-					<hr>
-					<h2 style="text-align:center;">会徽</h2>
-					<div style="margin-left:263px;">
-						<img src="https://itnmian.github.io/huihui1.png">会徽1
-						<img src="https://itnmian.github.io/huihui2.png">会徽2
+				<div style="background-color:white;width:1145px;margin-left:auto;margin-right:auto;border-width:1px;border-color:RGB(19,19,81);border-radius:11px;">
+					<div style="height:11px;"></div>
+					<div style="width:1080px;margin-left:auto;margin-right:auto;">
+						<img src="https://itnmian.github.io/huihui.png" style="margin-left:439px;" alt="会徽">
+						<hr>
+						<h1 style="text-align-last:justify;border-style:outset;">七中木毛协会<br>Q i z h o n g    H o m o    A s s o c i a t i o n<br>第七中学校ホモ協会</h1>
+						<h1 style="text-align:center;font-size:114px;"><i><a href="https://itnmian.github.io" style="color:RGB(114,45,14);">“Homo 无处不在”</a></i></h1>
+						<button id="open" class="btn" type="button" onclick="Open()">点击展开剩余介绍</button>
+						<div id="followingContent"></div>
+						<div style="height:19px;"></div>
 					</div>
-					<hr>
-					<h2 style="text-align:center;">会旗</h2>
-					<div style="margin-left:423px"><img src="https://itnmian.github.io/huiqi1.png"></div>
 				</div>
+				<div style="height:19px;"></div>
 			</div>
-			
 		</div>
 	</body>
 </html>
