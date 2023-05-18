@@ -11,10 +11,30 @@ h1
 .btn
 {
 	background-image:none;
-    border:none;
+	border:none;
 	background-color:white;
-    color:RGB(114,114,114);
-    text-align:center;
+	color:RGB(114,114,114);
+	text-align:center;
 	cursor:pointer;
 	font-size:19px;
+}
+.ctntbox
+{
+	background-color:white;
+	width:1145px;
+	margin-left:auto;
+	margin-right:auto;
+	border-width:1px;
+	border-color:RGB(19,19,81);
+	border-radius:11px;
+}
+.mnav
+{
+	float:left;
+	width:114px;
+	font-size:19px;
+	border-right:solid;
+	border-right-width:1px;
+	border-color:RGB(114,114,114);
+	height:45px;
 }
