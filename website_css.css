@@ -38,3 +38,26 @@ h1
 	border-color:RGB(114,114,114);
 	height:45px;
 }
+.outerbox
+{
+	border-style:solid;
+	border-color:RGB(114,45,14);
+	background-color:RGB(240,240,210);
+	border-width:1px;
+	font-family:Source Han Sans;
+	border-radius:19px;
+	font-size:30px;
+	margin-bottom:19px;
+}
+.innerbox
+{
+	float:right;
+	height:40px;
+	border-style:solid;
+	border-color:black;
+	background-color:white;
+	font-family:Source Han Sans;
+	font-size:11px;
+	border-width:1px;
+	border-radius:11px;
+}
